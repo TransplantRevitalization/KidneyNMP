@@ -1,3 +1,10 @@
+Device 2:
+START: pm2 start "C:\Users\Device 2\AppData\Roaming\npm\node_modules\node-red\red.js"
+RESTART: pm2 restart "C:\Users\Device 2\AppData\Roaming\npm\node_modules\node-red\red.js"
+STOP: pm2 stop "C:\Users\Device 2\AppData\Roaming\npm\node_modules\node-red\red.js"
+
+Old laptop:
 START: pm2 start C:\Users\kidney\AppData\Roaming\npm\node_modules\node-red\red.js
 RESTART: pm2 restart C:\Users\kidney\AppData\Roaming\npm\node_modules\node-red\red.js
 STOP: pm2 stop C:\Users\kidney\AppData\Roaming\npm\node_modules\node-red\red.js
+
